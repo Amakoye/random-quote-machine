@@ -20,6 +20,7 @@ body {
 
 #quote-box {
   display: flex;
+  width: 50%;
   flex-direction: column;
   background: #fff;
   padding: 30px;
@@ -71,6 +72,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  #quote-box {
+    width: auto;
+  }
   .quote-text {
     font-size: 20px;
   }
