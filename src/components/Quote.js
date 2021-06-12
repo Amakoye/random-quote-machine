@@ -63,7 +63,7 @@ const Quote = () => {
         </a>
         <button
           className="next-quote btn"
-          id="new-quote quote-btn"
+          id="new-quote"
           onClick={getRandomQuote}
         >
           New quote
